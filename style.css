@@ -1,0 +1,607 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Google sans", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px 40px;
+    /* background-color: white; */
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* max-width: 10%;
+    background-color: none;  */
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 0px;
+}
+
+.logo h2{
+    font-size: 1.5em;
+    margin: 0;
+    color: #5F6368;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    color: #1a73e8;
+}
+
+.right-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-menu input{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.right-menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.right-menu a:hover{
+    color: #1a73e8;
+
+}
+.language select{
+    background-color: transparent;
+    color: rgb(95 99 104);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+
+.header{
+    background-color: rgb(26,115,232);
+    color: rgb(251, 252, 255);
+    padding: 28px;
+    font-size: 1em;
+
+}
+.smallheader{
+    padding: 25px 200px;
+    background-color: #E8F0FE;
+    font-size: .875em;
+    color: #303f9f;
+}
+
+.smallheader p a {
+        color: #303f9f;
+}
+
+img{
+    max-width: 80%;
+    margin-top: 60px;
+    margin-left: 50px;
+ }
+
+
+.flex-container{
+    /* border: 2px solid red; */
+    margin: 70px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-items{
+    /* border: 2px solid blue; */
+    width: 50%;
+
+}
+
+.flex-items h3 {
+  color:#202124;
+  font-size: 4.57em;
+  font-weight: 700;
+  line-height: 72px;
+  margin: 0px 0px 32px;
+  padding: 0px;
+  
+}
+
+.flex-items p{
+  font-family: "Google Sans";
+  color: black;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 30px;
+  
+}
+
+   /* 3-Card Grid Section Styling */
+
+
+/* Main Container Grid Layout */
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 300px;
+}
+
+/* Individual Card Blocks */
+.card {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #dadce0; 
+  border-radius: 12px;       
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* transition: box-shadow 0.2s ease; */
+  max-width: 40%;
+}
+
+/* Elevate the card slightly when hovered */
+/* .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+} */
+
+/* Upper Colored Illustration Box */
+.card-image {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Keeps graphics scaled properly inside their banners */
+.card-illustration {
+  /* max-width: 85%; */
+  max-height: 85%;
+  object-fit: contain;
+  display: block;
+}
+
+
+.bg-blue { background-color: #f1f3f4; }       
+.bg-orange { background-color: #fef7e0; }     
+.bg-light-blue { background-color: #e8f0fe; } 
+
+/* Text & Button Area Placement */
+.card-content {
+
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Headings styles */
+.card-content h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #202124;
+  margin-bottom: 12px;
+}
+
+/* Description Text paragraph adjustment */
+.card-content p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #5f6368;
+}
+
+/* Custom Outlined Pill-Buttons */
+.btn-pill {
+  align-self: flex-start; 
+   border: 2px solid #360dec;
+  color: #1a73e8; 
+  padding: 8px 24px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.btn-pill:hover {
+  background-color: #f8f9fa;
+  border-color: #1a73e8;
+}
+
+
+      /* EXPLORE WEB PLATFORM SECTION     */
+
+.explore-section {
+
+    background-color: #F5F6F7; 
+    margin-top: 40px;
+    padding: 60px 0;
+    width: 100%;
+}
+
+
+.explore-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.explore-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* flex-wrap: wrap;  */
+    gap: 20px;
+}
+
+.explore-section h2 {
+    font-size: 2.5em; 
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.48px;
+    color: #202124;
+}
+
+.description {
+    font-size: 1.1em;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5f6368;
+    margin: 0;
+    max-width: 850px; 
+}
+
+
+.explore-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: #FFFDF5;
+    border: 2px solid #360dec;
+    /* border:  #3D73E8; */
+    text-decoration: none;
+    font-weight: 500;
+    color: #0e6deb; 
+    border-radius: 100px;
+}
+
+
+      /* EXPLORE WEB PLATFORM  CARD SECTION     */
+
+
+.platform-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 300px;
+  height: 490px;
+  background-color: #F5F6F7;
+}
+
+/* Individual Card Blocks */
+.platform {
+  flex: 1;
+  background-color: #ffffff;
+  /* border: 1px solid #dadce0;  */
+  border-radius: 12px;       
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* transition: box-shadow 0.2s ease; */
+  max-width: 40%;
+}
+
+.platform-illustration {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* .platform-illustration{
+  max-height: 85%;
+  object-fit: contain;
+  display: block;
+  
+} */
+
+.platform-content {
+  
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+
+.platform-content h3 {
+  
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  vertical-align: baseline;
+  letter-spacing: -0.32px;
+  margin: 0px 0px 20px;
+  text-align: center;
+}
+
+/* Description Text paragraph adjustment */
+.platform-content p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: RGB(32, 33, 36);
+  text-align: center;
+}
+
+/* Custom Outlined Pill-Buttons */
+.btn-1 {
+  align-self: flex-start; 
+  border: 3px solid #360dec;
+  color: #1C74E8;
+  padding: 8px 24px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.btn-1:hover {
+  background-color: #f8f9fa;
+  border-color: #1a73e8;
+}
+
+
+  /* LEARN WEB SECTION */
+
+.learn{
+  
+    background-color: white;
+    margin-top: 40px;
+    padding: 60px 0;
+    width: 100%;
+}
+
+
+.learn-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.learn-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* flex-wrap: wrap;  */
+    gap: 20px;
+}
+
+.learn h2 {
+    font-size: 2.5em; 
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.48px;
+    color: #202124;
+}
+
+.learn-description {
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 400;
+    color: #5f6368;
+    margin: 0;
+    max-width: 850px; 
+}
+
+
+.learn-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 40px;
+    /* background-color: #FFFDF5; */
+    border: 2px solid #360dec;
+    /* border:  #3D73E8; */
+    text-decoration: none;
+    font-weight: 500;
+    color: #0e6deb; 
+    border-radius: 100px;
+} 
+
+/* LEARN WEB PLATFORM CARD SECTION */
+
+.learn-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+/* Individual Cards */
+.learn-card {
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.learn-card:hover {
+    box-shadow: 0 4px 12px rgba(60, 64, 67, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Image area */
+.learn-image {
+    width: 100%;
+    height: 230px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Images */
+.learn-illustration {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+/* Text area */
+.learn-content {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.learn-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #202124;
+    margin: 0 0 14px;
+}
+
+.learn-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5f6368;
+    margin: 0 0 25px;
+}
+
+/* Start Course */
+.Start {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #1a73e8;
+    border-radius: 20px;
+    color: #1a73e8;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+  }
+
+.Start:hover {
+background-color: #0e6deb;
+color: white;
+}
+
+@media (max-width: 800px) {
+    .learn-section {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .learn-card {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* DEV SECTION */
+.DEV {
+    width: 100%;
+    padding: 30px 8%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+/* LEFT SIDE */
+.dev-content {
+    /* width: 55%; */
+    text-align: left;
+}
+
+.DEV h3 {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #202124;
+    margin: 0 0 12px;
+    margin-bottom: 30px;
+}
+
+.read {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5f6368;
+    max-width: 600px;
+    margin: 0 0 24px;
+}
+
+/* BUTTON */
+.DEV a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #1a73e8;
+    border-radius: 20px;
+    color: #1a73e8;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.DEV a:hover {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+/* RIGHT SIDE IMAGE */
+.DEV img {
+    width: 320px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 5%;
+}

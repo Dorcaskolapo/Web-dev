@@ -1,0 +1,16 @@
+em and rem are used for responsiveness
+* is a universal selector in CSS
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
