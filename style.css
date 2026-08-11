@@ -605,3 +605,39 @@ color: white;
     object-fit: contain;
     margin-right: 5%;
 }
+
+.base{
+    color: #202124;
+    background-color: transparent;
+    font-family: "Google Sans", "Noto Sans", "Noto Sans JP","Noto Sans KR","Noto Naskh Arabic","Noto Sans Thai","Noto Sans Hebrew","Noto Sans Bengali", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding: 50px;
+}
+
+.base h2{
+font-size: 20px;
+padding: 20px;
+font-weight: 500;
+
+}
+
+.anchor1{
+color: #1A73E8;
+text-decoration: none;
+
+}
+
+.anchor{
+color: #1A73E8;
+text-decoration: none;
+border: 1px solid #1A73E8;
+background-color: white;
+border-radius: 20px;
+padding: 12px;
+line-height: 20px;
+}
+
+
