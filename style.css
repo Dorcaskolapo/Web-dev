@@ -782,22 +782,22 @@ color: white;
   color: #1f1f1f;
 }
 
-.base-middle h3, 
-.base-side h3 {
+.Css-middle h3, 
+.Css-side h3 {
   font-size: 18px;
   line-height: 24px;
   margin: 0;
   font-weight: 500;
 }
 
-.base-middle h3 a, 
-.base-side h3 a {
+.Css-middle h3 a, 
+.Css-side h3 a {
   color: black;
   text-decoration: none;
 }
 
-.base-middle h3 a:hover, 
-.base-side h3 a:hover {
+.Css-middle h3 a:hover, 
+.Css-side h3 a:hover {
   text-decoration: underline;
 }
 
@@ -810,8 +810,8 @@ color: white;
   color: #4a4a4a;
 }
 
-.base-middle p, 
-.base-side p {
+.Css-middle p, 
+.Css-side p {
   font-size: 14px;
   line-height: 20px;
   color: #5f6368;
