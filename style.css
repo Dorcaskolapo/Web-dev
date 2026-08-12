@@ -858,3 +858,43 @@ color: white;
 }
 
 
+/* Developer Newsletter */
+section{
+   background-color:  #f8f9fa;
+}
+.news{
+   color: #202124;
+   font-family: Google sans;
+   font-size: 48px;
+   text-align: center;
+   line-height: 60px;
+   font-weight: 700;
+   margin-top: 30px;
+}
+
+.get{
+    color: #202124;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 16px 0px 24px;
+    text-align: center;
+
+}
+
+ .form-container {
+    text-align: center;
+  }
+
+.form-container input, .form-container select {
+    margin: 4px 0;
+    padding: 15px;
+    width: 400px;
+    border: none;
+    background-color: white;
+  }
+
+  .spam{
+    font-size: 16px;
+    margin: 10px 20px;
+    text-align:center;
+  }
